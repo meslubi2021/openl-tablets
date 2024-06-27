@@ -79,7 +79,7 @@
         <maven.deploy.skip>false</maven.deploy.skip>
         <maven.install.skip>${maven.deploy.skip}</maven.install.skip>
         <staging.hg.repo.url>https://vno-hg.exigengroup.com/hg/openl-pub</staging.hg.repo.url>
-        <org.springframework.version>5.2.24.RELEASE</org.springframework.version>
+        <org.springframework.version>6.0.19</org.springframework.version>
         <org.springsecurity.version>5.7.12</org.springsecurity.version>
         <org.hibernate.version>5.3.20.Final</org.hibernate.version>
         <org.mojarra.version>2.3.7</org.mojarra.version>
@@ -620,7 +620,7 @@
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
-                <version>4.13.1</version>
+                <version>4.13.2</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
